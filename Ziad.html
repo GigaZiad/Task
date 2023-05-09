@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/Ziad.css">
+    <style>
+      .login-box button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+      }
+
+      .login-box button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+     <link rel="icon" type="image/x-icon" href="https://img.icons8.com/?size=512&id=eJRWOPaBLOHJ&format=png">
+  </head>
+  <body>
+    <div class="login-box">
+      <h2>Fill The Form</h2>
+      <form>
+        <div class="user-box">
+          <input type="text" name="username" required="">
+          <label>Username</label>
+        </div>
+        <div class="user-box">
+            <input type="email" name="email" required="">
+            <label>Email</label>
+          </div>
+        <div class="user-box">
+          <input type="password" name="password" required="">
+          <label>Password</label>
+        </div>
+        <div class="user-box">
+          <input type="number" name="age" required="">
+          <label>Age</label>
+        </div>
+        <div class="container">
+            <div class="user-box">
+                <label>Gender</label> <br><br>
+                <select name="gender" required="">
+                  <option value=""></option>
+                  <option value="male">Male🚹</option>
+                  <option value="female">Female🚺 </option>
+                </select>
+                <br><br>
+              </div>     
+              <div class="birth-box">
+                <label for="date" >Birthdate</label>
+                <br>
+                <input type="date" name="date" id="date" style="margin-top: 9px; padding: 2px; border-radius: 0.5em; border: 2px solid #f7f7f7; font-size: 1.2em;" min="1900-01-01" max="2022-12-31" required>
+                <br>
+                <small style="color: #ffffff;"></small>
+              </div>
+        </div>
+          
+          
+        <a href="https://www.facebook.com/profile.php?id=100080110124860">
+            <img src="https://img.icons8.com/?size=512&id=13912&format=png" alt="Facebook" width="32" height="32">
+          </a>
+          <a href="https://www.instagram.com/_ziaaaad_/">
+            <img src="https://img.icons8.com/?size=512&id=Xy10Jcu1L2Su&format=png" alt="Instagram" width="32" height="32">
+          </a>
+          <a href="https://twitter.com/GigaZiad">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-media-2210/24/Twitter-512.png" alt="Twitter" width="32" height="32">
+          </a>
+          <a href="https://www.chess.com/member/zconr">
+            <img src="https://img.icons8.com/?size=512&id=TBlGWWTcXhfe&format=png" alt="Chess" width="32" height="32">
+          </a>
+          <div style="text-align:center;">
+            <button type="submit">Submit</button> <br>
+          </div>
+          
+      </form>
+    </div>
+  </body>
+</html>
